@@ -13,7 +13,7 @@ spec:
       addRevisionLabel: false
       cpu: "0.5"
       exposeType: ClusterIP
-      image: docker
+      image: nginx
       imagePullPolicy: IfNotPresent
       memory: 20Mi
       ports:
